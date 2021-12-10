@@ -27,8 +27,6 @@ def list_sum(N):
     for i in N:
         somma += i        
     return somma
-
-#ovviamente se inizilassi prod a 0 il risultato sarebbe sempre 0.
 def list_product(N):
     prod = 1
     for i in N:
